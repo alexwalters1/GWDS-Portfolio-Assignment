@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="awicon.png">
+
+
+    <a href="homepage.html">
+        <img src="awhome.png" alt="Alex Walters Logo" class="logo">
+    </a>
+
+    <div class="navigationbar" id="navigationbar">
+        <img src="smallmenu.png" alt="Menu Icon" class="smallmenu" id="smallmenu" onclick="ShowmenuFunction()">
+        <a href="carp.html">CARP</a>
+        <a href="type.html">Typographic Systems</a>
+        <a href="coding.html">Coding</a>
+        <a href="ux.html">UX Design</a>
+        
+    </div>
+</head>
+<body>
+    <div class="spacer"></div>
+    <div class="codingcol">
+        <div class="codingtext">
+            <h1>
+                Coding Worksheets
+            </h1>
+            <h4>
+                Here is a link to my GitHub Repositiory cotaining all of my HTML and CSS work for Graphic and Web Design Studio
+                <br>
+                <a href="https://github.com/alexwalters1?tab=repositories">https://github.com/alexwalters1?tab=repositories </a>
+            </h4>
+        </div>
+    </div>
+
+
+    <script>
+        function ShowmenuFunction() {
+            var x = document.getElementById("navigationbar");
+            if (x.className === "navigationbar") {
+            x.className += " responsive";
+            } else {
+            x.className = "navigationbar";
+            }
+        }
+    </script>
+    
+</body>
+</html>

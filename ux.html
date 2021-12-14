@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Experience Design</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="awicon.png">
+
+
+    <a href="homepage.html">
+        <img src="awhome.png" alt="Alex Walters Logo" class="logo">
+    </a>
+
+    <div class="navigationbar" id="navigationbar">
+        <img src="smallmenu.png" alt="Menu Icon" class="smallmenu" id="smallmenu" onclick="ShowmenuFunction()">
+        <a href="carp.html">CARP</a>
+        <a href="type.html">Typographic Systems</a>
+        <a href="coding.html">Coding</a>
+        <a href="ux.html">UX Design</a>
+        
+    </div>
+</head>
+<body>
+    <div class="spacer"></div>
+    <div class="uxrow1">
+        <div class="uxtextcontainer">
+            <h1>User Experience</h1>
+            <h3>Strategy and Scope:<br><br>
+                This final website aims to provide the user with a collection of design challenges, previously assigned to the author (me), throughout the first year of Digital Media. Aforementioned user(s) include other peers, potential customers who may require demonstrated skills and most obviously academics. Furthermore, the functional goals of this product include:<br><br>
+                1.	Produce a functional static website hosted and published on GitHub.<br>
+                2.	Using various media types, show/display the 4 design tasks throughout the website, with accompanying reflection text.<br>
+                3.	Ensure the product is interesting, creative, and thoughtful – considering all user and potential user’s needs (accessibility, colour blind filters etc.)<br><br>
+                
+                To achieve a professional and suitable website, I will need to include all the 5 design tasks that are clearly accessible to the user and easy to get to. To obtain this the use of a top navigation bar with; UX Design, Coding, Typographic Systems and CARP (Contrast, Alignment, Repetition and Proximity) combined with supplementary navigation at the bottom of the page (in the footer) will help me accomplish this. On top of that, a concern of mine was how will the user enter the website if I am publishing multiple pages corresponding to the design tasks, which should the user initially start on; an initial splash page populated with a logo and text, as well as a button i.e. “Take a look” or “Continue to site” could help mitigate this issue otherwise I will have to choose the page the user starts on before progressing. Moreover, a section dedicated to information of the author in the form of an “About me” pane could make the website feel more personal and give the user an idea of what to expect.<br>
+                
+                At the same time, there are also things I will not include in my website. One of these would be the wireframes and flowcharts I’ve produced (and included below), however due to the brief given to me these will need to be present on the site – disregarding the requirements of the website: end users generally do not need to be exposed to these diagrams. Similarly, my colour scheme while it will be shown throughout my project, the reasoning of this will not be available to the end user.<br>
+            </h3>
+        </div>
+    </div>    
+
+        <div class="uxrow2">
+            <div class="uxdiagramcontainer">
+                <h1>Flowcharts and Diagrams</h1>
+                <img src="Wireframes/CARP.png" class="carpwire" alt="CARP Wireframe">
+                <img src="Wireframes/TYPOGRAPHIC SYSTEMS.png" class="typewire" alt="Type Wireframe">
+                <img src="Wireframes/CODING.png" class="codingwire" alt="Coding Task Wireframe">
+                <img src="Exported JPEGs/sitemap.png" class="sitemap" alt="sitemap">
+                <img src="Wireframes/Splash Page.png" class="homewire" alt="Homepage Wireframe">
+                <img src="Exported JPEGs/awfuns.png" class="awfuns" alt="Logo Design">
+            </div>
+        </div>
+    
+
+    <script>
+        function ShowmenuFunction() {
+            var x = document.getElementById("navigationbar");
+            if (x.className === "navigationbar") {
+            x.className += " responsive";
+            } else {
+            x.className = "navigationbar";
+            }
+        }
+    </script> 
+</body>
+</html>

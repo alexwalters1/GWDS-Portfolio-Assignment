@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrast, Alignment, Repitition and Proximity</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="awicon.png">
+
+
+    <a href="homepage.html">
+        <img src="awhome.png" alt="Alex Walters Logo" class="logo">
+    </a>
+
+    <div class="navigationbar" id="navigationbar">
+        <img src="smallmenu.png" alt="Menu Icon" class="smallmenu" id="smallmenu" onclick="ShowmenuFunction()">
+        <a href="carp.html">CARP</a>
+        <a href="type.html">Typographic Systems</a>
+        <a href="coding.html">Coding</a>
+        <a href="ux.html">UX Design</a>
+        
+    </div>
+</head>
+<body>
+    <div class="spacer"></div>
+
+    <div class="carpcol1">
+        <div class="carp1img"><img class="carp1jpeg" src="Exported JPEGs/filmwiggleposter.jpg" alt="CARP Design 1"></div>
+        <div class="carp1desc">
+            <h1>Design #1<br>"Rolling Film"</h1>
+            <div class="designimgcontainer">
+                <img class="filmwigglesketch" src="Exported JPEGs/filmwigglesketch.png" alt="Poster idea sketch">
+            </div>
+            <h3>
+                Personally, design #1 is my favourite design. <br>
+                This is due to the use of proximity and alignment to make this poster pleasurable to look at. Using lower opacity vectors, which are the same diameter as the film reel, again add depth to the design and allows it to look less plain. <br>
+                Relevant information is clear and easy to digest for the observer, it also makes it easy for quick passers-by to gather this information. In conjunction, the title text of True/False shows use of proximity alongside the graphics on the poster: this draws the target audience’s eye to the name of the event and corresponding website. <br>
+                Contrast and repetition are shown with the contrasting colour choices and the repeated pattern of vectors behind the film reel objects. Agreeing with Beth’s comment of; “The 2nd poster looks the most like a poster you would see in the real world(..)” not only did I take this as a compliment, <br>
+                but it also solidified my opinion of this design – out of all of my designs this one is my most powerful.
+            </h3>
+        </div>
+    </div>
+
+    <div class="carpcol2">
+        <div class="carp2img"><img class="carp2jpeg" src="Exported JPEGs/filmwrappedposter.jpg" alt="CARP Design 2"></div>
+        <div class="carp2desc">
+            <h1>Design #2<br>"Film Canister"</h1>
+            <div class="designimgcontainer">
+                <img src="Exported JPEGs/filmwrappedsketch.png" class="filmwrappedsketch" alt="Wrapped idea sketch">
+            </div> 
+            <h3>
+                Using my sketchbook to visualise my ideas was critical in this task, 
+                this meant I had more freedom than sketching digitally. <br>Focusing on contrast and repetition for this design, I used film reels (using the True/False focal point of cinema for this) in the background of the poster to add depth and texture to the image, 
+                as well as the addition of noise. As a result of this,
+                the poster is more eye-catching and entices the observer to stop and read the poster.<br> Furthermore, the use of negative space in this design helped to draw attention to the critical information the poster provides, 
+                this combined with my use of the True/False colour scheme made the present typography very powerful and a strong example of the use of contrast within design. 
+                My peers agreed with this; “Idea 1 and 3 are the most creative and eye-catching” – Dawid, “(…) this design makes me want to stop and look” – Stephan.
+            </h3>
+        </div>
+    </div>
+
+    <div class="carpcol3">
+        <div class="carp3img"><img class="carp3jpeg" src="Exported JPEGs/icecreamposter.jpg" alt="CARP Design 3"></div>
+        <div class="carp3desc">
+            <h1>Design #3<br>"Melting Reels"</h1>
+            <div class="designimgcontainer">
+                <img src="Exported JPEGs/icecreamsketch1.png" class="filmmeltingsketch" alt="Ice cream idea sketch">
+            </div>
+            <h3>
+                Similarly to design #2, sketching allowed for fast development of design iterations. <br>
+                Clearly, this design demonstrates contrast with the use of a pastel colour palette, this enables the design to emphasise the information for the True/False film event. In my opinion, this design is the most powerful, as it’s unique which attracts potential customers to stop and read the poster. 
+                Although, this design weakly demonstrates repetition (besides the use of the film reels again). <br>
+                On the other hand, this design also uses alignment effectively, evidenced by the text shaped as the cone of the ice cream. Looking at my preliminary sketches, this idea developed from my initial sketch which was inspired by a moon phase image. <br>
+                Both Beth and Dawid liked this design; “(…) My favourite is #3 as it’s unique and clever” – Beth.
+            </h3>
+        </div>
+    </div>
+    
+
+
+
+    <script>
+        function ShowmenuFunction() {
+            var x = document.getElementById("navigationbar");
+            if (x.className === "navigationbar") {
+            x.className += " responsive";
+            } else {
+            x.className = "navigationbar";
+            }
+        }
+    </script>
+    
+</body>
+</html>

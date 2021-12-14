@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typrographic Systems</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="awicon.png">
+
+
+    <a href="homepage.html">
+        <img src="awhome.png" alt="Alex Walters Logo" class="logo">
+    </a>
+
+    <div class="navigationbar" id="navigationbar">
+        <img src="smallmenu.png" alt="Menu Icon" class="smallmenu" id="smallmenu" onclick="ShowmenuFunction()">
+        <a href="carp.html">CARP</a>
+        <a href="type.html">Typographic Systems</a>
+        <a href="coding.html">Coding</a>
+        <a href="ux.html">UX Design</a>
+        
+    </div>
+</head>
+<body>
+    <div class="spacer"></div>
+
+    <div class="row1">
+        <div class="axialimg"><img class="axialjpeg" src="Exported JPEGs/Axial.jpg" alt="Axial Typographic Design by Alex Walters"></div>
+        <div class="axialdesc">
+            <h1>Axial</h1>
+            <h3>
+                This typographic system is designed around an imaginary line, known as an axis. 
+                All content designed within this system falls either side of this axis; this can be both symmetrical and asymmetrical 
+                – furthermore, the axis does not need to be straight, it can be angled, zigzag etc. <br><br>
+
+                An example of this in nature is a tree, this is due to the multiple branches coming from a central system.
+                
+            </h3>
+        </div>
+        <div class="bilateralimg"><img class="bilateraljpeg" src="Exported JPEGs/Bilateral.jpg" alt="Bilateral Typographic Design by Alex Walters"></div>
+        <div class="bilateraldesc">
+            <h1>Bilateral</h1>
+            <h3>
+                Simply bilateral can be translated to centred. In a bilateral typographic system, 
+                all content is aligned upon the centre of an axis, like ‘centre text’ formatting in text editors like Microsoft Word. 
+                <br><br>
+                Again, this system is not limited to an axis is the centre of the canvas, if text/content is aligned centrally over an axis it is considered bilateral.
+
+            </h3>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div class="dilatationaldesc">
+            <h1>Dilatational</h1>
+            <h3>
+                Dilatational design demonstrates the use of type along circular paths. Rather than radiating from a point, text is instead formed around the curve of the focal point shape. 
+                <br><br>Using the previous tree analogy – rings of tree trunks are a good example of this design, if there was text present. 
+            </h3>
+        </div>
+        <div class="dilatationalimg"><img class="dilatationaljpeg" src="Exported JPEGs/Dilatational.jpg" alt="Dilatational Typographic Design by Alex Walters"></div>
+        <div class="griddesc">
+            <h1>Grid</h1>
+            <h3>
+                Most present in day-to-day life, for example in newspapers, all text and content fall into columns and rows. 
+                <br><br>This typographic system favours text above other content and as a result of this there is rarely any doubt of readability – some designers use this exclusively and is applicable to lots of design scenarios.
+            </h3>
+        </div>
+        <div class="gridimg"><img class="gridjpeg" src="Exported JPEGs/Grid.jpg" alt="Grid Typographic Design by Alex Walters"></div>
+    </div>
+
+    <div class="row3">
+        <div class="modularimg"><img class="modularjpeg" src="Exported JPEGs/Modular.jpg" alt="Modular Typographic Design by Alex Walters"></div>
+        <div class="modulardesc">
+            <h1>Modular</h1>
+            <h3>
+                Using repeating structures to break up content, modular typographic systems work very well alongside grid layouts, but they are not reliant on one another. 
+                <br><br>These aforementioned structures can be anything, but shapes are most common, 
+                this design is suitable for already separated content like a music festival poster with multiple stages and acts.
+            </h3>
+        </div>
+        <div class="radialimg"><img class="radialjpeg" src="Exported JPEGs/Radial.jpg" alt="Radial Typographic Design by Alex Walters"></div>
+        <div class="radialdesc">
+            <h1>Radial</h1>
+            <h3>
+                Radial typographic systems justify content to radiate from a central point, like a car tyre. 
+                <br><br>This type of design is mostly seen on posters, promotional material as well as interactive websites, due to this typographic system promoting interesting and visually enticing designs. 
+            </h3>
+        </div>
+    </div>
+
+    <div class="row4">
+        <div class="transitionaldesc">
+            <h1>Transitional</h1>
+            <h3>
+                This typographic system is similar to dilatational but is not limited to purely circular paths. 
+                <br><br>It resembles a cross-section of sediment and is one of the most unique systems shown on this page, text flows to resemble a design you would find in nature.
+            </h3>
+        </div>
+        <div class="transitionalimg"><img class="transitionaljpeg" src="Exported JPEGs/Transitional.jpg" alt="Transitional Typographic Design by Alex Walters"></div>
+        <div class="randomdesc">
+            <h1>Random</h1>
+            <h3>
+                Probably the most self-explanatory system. 
+                <br><br>Random typographic systems have no order and usually look quite jumbled and confusing, however if executed right it can have a strong impact to the target audience.  
+            </h3>
+        </div>
+        <div class="randomimg"><img class="randomjpeg" src="Exported JPEGs/Random.jpg" alt="Random Typographic Design by Alex Walters"></div>
+    </div>
+
+
+
+
+
+    
+
+
+    <script>
+        function ShowmenuFunction() {
+            var x = document.getElementById("navigationbar");
+            if (x.className === "navigationbar") {
+            x.className += " responsive";
+            } else {
+            x.className = "navigationbar";
+            }
+        }
+    </script>
+    
+</body>
+</html>

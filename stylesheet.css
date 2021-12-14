@@ -1,0 +1,305 @@
+@font-face {
+    font-family: LGC;
+    src: url(Louis\ George\ Cafe.ttf);
+}
+
+@font-face {
+    font-family: LGCBold;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
+
+p {
+    padding: 0%;
+    text-align: left;
+}
+
+.navigationbar {
+    overflow: hidden;
+    background-color: #ffc9c9;
+}
+
+.navigationbar a {
+    display: block;
+    color: #0042ee;
+    text-align: center;
+    float: right;
+    padding: 20px 20px;
+    font-family: LGCBold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.navigationbar a:hover {
+    background-color: #ff9999;
+}
+
+.logo {
+    width: 122px;
+    height: auto;
+    float: left;
+    background-color: #ffc9c9;
+}
+
+.logo:hover {
+    background-color: #ffb3b3;
+}
+
+
+.smallmenu {
+    display: none;
+    width: 61px;
+    padding: 9px;
+}
+
+@media screen and (max-width: 810px) {
+    .navigationbar a:not(:first-child) {
+        display: none;
+    }
+    .navigationbar .smallmenu {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .navigationbar.responsive {position: relative;}
+    .navigationbar.responsive.smallmenu {
+        position: absolute;
+        display: block;
+        right: 0;
+        left: 0;
+    }
+    .navigationbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.centerlogocontainer {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: none;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.splashlogo {
+    width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .splashlogo {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .splashlogo {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .splashlogo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.splashbuttoncontainer {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.splashbutton {
+    font-size: 20px;
+    font-family: LGCBold;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+    background-color: #ff9090;
+    color: white;
+}
+
+.homepagebody {
+    background-color: #ffc9c9;
+}
+
+.spacer {
+    height: 15px;
+}
+
+.row1, .row2, .row3, .row4 {
+    display: flex;
+    background-color: #ffe9e9;
+    flex-wrap: wrap;
+}
+
+.axialimg, .bilateralimg, .dilatationalimg, .gridimg, .modularimg, .radialimg, .randomimg, .transitionalimg {
+    margin: 10px;
+    flex-grow: 2;
+    height: auto;
+    width: 330px;
+}
+
+.axialjpeg, .bilateraljpeg, .dilatationaljpeg, .gridjpeg, .modularjpeg, .radialjpeg, .randomjpeg, .transitionaljpeg {
+    height: auto;
+    width: 100%;
+}
+
+.axialdesc, .bilateraldesc, .dilatationaldesc, .griddesc, .modulardesc, .radialdesc, .randomdesc, .transitionaldesc {
+    background-color: #fcdcdc;
+    padding: 10px;
+    border-radius: 5%;
+    margin: 10px;
+    flex-grow: 2;
+    height: auto;
+    width: 330px;
+    text-align: center;
+
+}
+
+
+
+.carpcol1, .carpcol2, .carpcol3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffe9e9;
+    flex-direction: row;
+}
+
+.carp1desc, .carp2desc, .carp3desc {
+    margin: 10px;
+    background-color: #fcdcdc;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2%;
+    flex-grow: 3;
+    width: 333px;
+    height: auto;
+}
+
+.carp1img, .carp2img, .carp3img {
+    margin: 10px;
+    flex-grow: 3;
+    width: 100px;
+    height: auto;
+}
+
+.carp1jpeg, .carp2jpeg, .carp3jpeg {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: LGCBold;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: LGC;
+    text-align: left;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: LGC;
+    font-size: 20px;
+}
+
+.uxrow1 {
+    background-color: #ffe9e9;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uxrow2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffe9e9;
+}
+
+.uxtextcontainer {
+    background-color: #fcdcdc;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2%;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.uxdiagramcontainer {
+    background-color: #fcdcdc;
+    padding: 10px;
+    border-radius: 20px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.codingwire, .homewire, .typewire, .sitemap, .awfuns {
+    width: 24.9999%;
+    height: auto;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.carpwire {
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.filmwigglesketch {
+    width: 60%;
+    height: auto;
+    float: right;
+}
+
+.designimgcontainer {
+    display: block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.filmwrappedsketch {
+    width: 60%;
+    height: auto;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.filmmeltingsketch {
+    width: 60%;
+    height: auto;
+    float: right;
+    padding-left: 5px;
+}
+
+.codingcol {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fcdcdc;
+}
+
+.codingtext {
+    flex-grow: 3;
+    text-align: center;
+}
+
